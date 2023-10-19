@@ -3,6 +3,6 @@ def call(String gitUrl, String gitBranch) {
         $class: 'GitSCM',
         branches: [[name: main]],
         userRemoteConfigs: [[url: https://github.com/vamshiyekbote/Jenkins_shared_library.git 
-        ]]
+        ]]]
     )
 }
